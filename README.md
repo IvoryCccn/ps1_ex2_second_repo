@@ -14,17 +14,19 @@ A Python package for analyzing GDP data of major economies from 2000 to 2022.
 
 ## Project Structure
 
-second_repo/
+```
+ps1_ex2_second_repo/
 ├── data/
-│ └── GDP.xlsx # GDP dataset
-└── fed/ # Main package
-├── init.py # Package initialization
-├── data.py # Data loading and cleaning functions
-├── plot_utils.py # Data visualizing functions
-├── gdp_analysis.ipynb # Main analysis notebook
-├── environment.yml # Conda environment configuration
-├── pyproject.toml # Project metadata and dependencies
-└── README.md # This file
+│   └── GDP.xlsx                    # GDP dataset
+├── fed/                            # Main package
+│   ├── __init__.py                 # Package initialization
+│   ├── data.py                     # Data loading and cleaning functions
+│   └── plot_utils.py               # Data visualization functions
+├── gdp_analysis.ipynb              # Main analysis notebook
+├── environment.yml                 # Conda environment configuration
+├── pyproject.toml                  # Project metadata and dependencies
+└── README.md                       # This file
+```
 
 ## Installation
 
